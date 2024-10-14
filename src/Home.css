@@ -1,0 +1,165 @@
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color: yellow;
+    display: flex;
+}
+.city{
+    height: 100%;
+    width: 20%;
+    background-color: rgb(0, 140, 255);
+    
+}
+.city .future{
+    height: 95px;
+    width: 95px;
+    margin-left: 90px;
+    margin-top: 10px;
+    border-radius:50% ;
+    /* text-align: center; */
+}
+.title{
+    text-align: center;
+    font-size: 20px;
+}
+.gunners{
+min-height: 100%;
+width: 80%;
+overflow-y: auto;
+background-color: #fff;
+}
+.content{
+    height: 50%;
+    width: 100%;
+    /* background-color: orange; */
+  
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+    list-style: none;
+}
+.list a{
+    
+    color: white; 
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-decoration: none;
+    
+}
+.list a:hover{
+    color: black;
+}
+li{
+    width: max-content; 
+}
+.logout{
+   margin-left: 50px;
+   background-color: transparent;
+   border: 1px solid transparent;
+   /* margin: 0; */
+   margin-top: 60px;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+}
+.logout a{
+    color: white;
+}
+.logout:hover{
+background-color: black;
+color: white;
+}
+.navbar{
+    height: 10%;
+    background-color: rgb(0, 140, 255);
+    display: flex;
+    font-size: 12px;
+    /* gap: 20px; */
+    /* justify-content: center; */
+    align-items: center;
+    /* position: fixed; */
+    position: sticky;
+    top: 0; /* Sticks to the top of the container */
+}
+.header{
+    min-height: 90%;
+    width: 100%;
+    overflow-y: auto;
+    background-color:white;
+    color: white;
+    height: 90%;
+}
+.bell{
+    color: white;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   /* margin-left: 30%; */
+   margin-left: 50%;
+}
+.future{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10%;
+
+}
+.info{
+    display: flex;
+    /* gap: 10px; */
+    /* justify-content: center; */
+    align-items: center;
+    margin-right: 30px;
+}
+#username{
+    margin-right: 15px;
+    font-size: 15px;
+    color: white;
+}
+.table{
+    height: 50%;
+    width: 70%;
+    margin-left: 15%;
+    /* margin-bottom: 10px; */
+}
+.modal{
+    max-height: 100%;
+}
+.deletebtn{
+    background-color: red;
+    color: #ffffff;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inpuut{
+    width: 35%;
+    color: white;
+    background-color: black;
+    margin-top: 20px;
+}
+.profile{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: red;
+}
+/* .chartz{
+    display: flex;
+    background-color: blue;
+    position: relative;
+} */
+.tbody{
+  height: 10px;
+  /* width: 10px; */
+}

@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main {
+  background-color: #fff;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100dvw;
+  display: flex;
+}
+.container {
+  background-color: rgb(80, 80, 147);
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  justify-content: center;
+}
+.headin {
+  margin-bottom: 30px;
+  /* margin-top: 50px; */
+  text-align: center;
+  color: white;
+}
+.inpoot {
+  margin: 10px;
+  padding: 6px;
+}
+.inpoot::placeholder {
+  font-size: 15px;
+  font-weight: 200;
+  color: black;
+}
+.visuals {
+  background-image: url("/src/assets/download.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 60%;
+}
+.btn {
+  background-color: rgb(183, 183, 165);
+  border-radius: 20px;
+  margin-top: 10px;
+}
+.btn:hover {
+  color: white;
+  background-color: royalblue;
+}
+.content {
+  text-align: center;
+  margin-top: 10px;
+}
